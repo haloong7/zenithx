@@ -1,0 +1,131 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith X Corporation - 미래를 선도하는 AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+
+    <header>
+        <div class="container">
+            <div class="logo">Zenith X Corp.</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">홈</a></li>
+                    <li><a href="#about">회사소개</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1><span id="typewriter"></span></h1>
+                <p>제니스 엑스 코퍼레이션은 최첨단 인공지능 기술로 불가능을 현실로 만듭니다.</p>
+                <a href="#services" class="cta-button">우리의 기술 보기</a>
+            </div>
+             <div class="hero-viz">
+                <!-- Simple SVG Visualization -->
+                <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:rgba(0, 220, 255, 0.8); stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:rgba(150, 0, 255, 0.8); stop-opacity:1" />
+                        </linearGradient>
+                         <filter id="glow">
+                            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <circle class="node" cx="30" cy="50" r="5" />
+                    <circle class="node" cx="70" cy="30" r="5" />
+                    <circle class="node" cx="70" cy="70" r="5" />
+                    <circle class="node" cx="110" cy="50" r="5" />
+                    <circle class="node" cx="150" cy="30" r="5" />
+                    <circle class="node" cx="150" cy="70" r="5" />
+                    <circle class="node" cx="190" cy="50" r="5" />
+
+                    <line class="link" x1="30" y1="50" x2="70" y2="30" />
+                    <line class="link" x1="30" y1="50" x2="70" y2="70" />
+                    <line class="link" x1="70" y1="30" x2="110" y2="50" />
+                    <line class="link" x1="70" y1="70" x2="110" y2="50" />
+                    <line class="link" x1="110" y1="50" x2="150" y2="30" />
+                    <line class="link" x1="110" y1="50" x2="150" y2="70" />
+                    <line class="link" x1="150" y1="30" x2="190" y2="50" />
+                    <line class="link" x1="150" y1="70" x2="190" y2="50" />
+                </svg>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>회사소개</h2>
+                <p>Zenith X Corporation은 인공지능 연구 개발의 선두주자로서, 혁신적인 AI 솔루션을 통해 다양한 산업 분야의 발전에 기여하고 있습니다. 우리는 데이터 분석, 머신러닝, 자연어 처리 등 핵심 AI 기술을 바탕으로 미래 사회의 청사진을 그려나가고 있습니다.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>서비스</h2>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <div class="service-icon">🧠</div>
+                        <h3>AI 컨설팅</h3>
+                        <p>귀사의 비즈니스 문제 해결을 위한 최적의 AI 전략 및 솔루션을 제안합니다.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">💡</div>
+                        <h3>맞춤형 AI 개발</h3>
+                        <p>독자적인 기술력으로 고객의 요구사항에 맞는 고성능 AI 모델을 개발합니다.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">📈</div>
+                        <h3>데이터 분석</h3>
+                        <p>빅데이터 분석을 통해 숨겨진 인사이트를 발견하고 비즈니스 성장을 지원합니다.</p>
+                    </div>
+                     <div class="service-item">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI 플랫폼</h3>
+                        <p>쉽고 빠르게 AI 모델을 구축하고 배포할 수 있는 클라우드 기반 플랫폼을 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>문의하기</h2>
+                <p>미래를 함께 만들어갈 파트너를 기다립니다. Zenith X Corporation의 AI 기술에 대해 궁금한 점이 있다면 언제든지 문의해주세요.</p>
+                <form>
+                    <input type="text" placeholder="이름" required>
+                    <input type="email" placeholder="이메일" required>
+                    <textarea placeholder="문의 내용" required></textarea>
+                    <button type="submit" class="cta-button">메시지 보내기</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zenith X Corporation. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
